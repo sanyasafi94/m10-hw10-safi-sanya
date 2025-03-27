@@ -113,16 +113,21 @@ section.hero > button {
   cursor: pointer;
 }
 
-main article {
+.article {
   padding: 48px 96px;
 }
 
-main p {
+.article__text {
   line-height: 1.75;
   margin-bottom: 48px;;
 }
 
-main > article img {
+.article__subtext {
+  line-height: 1.75;
+  margin-bottom: 48px;
+}
+
+.article__image {
   float: left;
   width: 300px;
   height: auto;
