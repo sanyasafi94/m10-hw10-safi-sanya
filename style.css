@@ -10,7 +10,7 @@
   --gray: #A1A1A1;
 }
 
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1.3rem;
