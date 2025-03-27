@@ -23,30 +23,34 @@
     </header>
     <main class="main">
       <section class="hero">
-        <p class="call-to-action">
+        <p class="hero__call-to-action">
           This is a call to action. It makes you want to click the button below.
         </p>
-        <button>click now</button>
+        <button class="hero__button">click now</button>
       </section>
       <article class="article">
-        <h1 class="main__heading">Main Heading</h1>
-        <p>
+        <h1 class="article__heading">Main Heading</h1>
+        <p class="article__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
           laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
           accusantium distinctio voluptas maiores modi
-          <a href="#">ad id nobis aspernatur deleniti!</a> Dolorem totam quam
-          fugiat, iste, recusandae quod voluptate a maiores numquam sapiente
-          velit consectetur necessitatibus possimus natus fugit aut assumenda
-          corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere
-          dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe
-          incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum
-          dolorum aperiam neque. Corrupti vitae tempora repellendus numquam!
-          Veniam quasi eius eum ratione natus doloremque recusandae consequuntur
-          exercitationem?
+          <a href="#" class="article__link">ad id nobis aspernatur deleniti!</a>
+          Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores
+          numquam sapiente velit consectetur necessitatibus possimus natus fugit
+          aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at
+          sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio
+          ab saepe incidunt obcaecati perferendis, iure reprehenderit
+          accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora
+          repellendus numquam! Veniam quasi eius eum ratione natus doloremque
+          recusandae consequuntur exercitationem?
         </p>
-        <img src="https://picsum.photos/500/500" alt="random image" />
-        <p>
+        <img
+          src="https://picsum.photos/500/500"
+          alt="random image"
+          class="article__image"
+        />
+        <p class="article__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
           laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
@@ -54,14 +58,14 @@
           deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a
           maiores numquam sapiente velit consectetur necessitatibus possimus
           natus fugit aut assumenda corrupti magnam. Sequi
-          <a href="#">voluptatibus</a> cumque, commodi at sit facere dicta sed
-          eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt
-          obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum
-          aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam
-          quasi eius eum ratione natus doloremque recusandae consequuntur
-          exercitationem?
+          <a href="#" class="article__link">voluptatibus</a> cumque, commodi at
+          sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio
+          ab saepe incidunt obcaecati perferendis, iure reprehenderit
+          accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora
+          repellendus numquam! Veniam quasi eius eum ratione natus doloremque
+          recusandae consequuntur exercitationem?
         </p>
-        <h2>Subheading</h2>
+        <h2 class="article__subtext">Subheading</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
@@ -79,7 +83,9 @@
         </p>
       </article>
     </main>
-    <footer>&copy; company name <span id="year"></span></footer>
+    <footer class="footer">
+      &copy; company name <span class="footer__year"></span>
+    </footer>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
