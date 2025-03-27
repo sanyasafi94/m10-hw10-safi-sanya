@@ -10,7 +10,7 @@
   --gray: #A1A1A1;
 }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1.3rem;
@@ -29,23 +29,30 @@ h1, h2 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-header {
+.header {
   background-color: var(--primary-color);
   padding: 48px 0;
   border-bottom: var(--secondary-color) 6px solid;
+  display: flex;
+}
+.nav__link {
+  text-decoration: none;
+  color: var(--off-white);
 }
 
-header a {
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__logo {
   font-size: 1.5rem;
-  color: var(--off-white);
+  margin-right: auto;
+  text-transform: uppercase;
+  
+}
+
+.nav__page{
+  margin-left: 24px;
 }
 
 main a {
@@ -58,8 +65,8 @@ main > article, nav{
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
+.nav {
+ 
 }
 
 nav > a:not(:first-of-type){
