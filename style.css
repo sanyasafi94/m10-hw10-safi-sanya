@@ -96,7 +96,7 @@ main > section.hero {
   text-align: center;
 }
 
-section.hero > .call-to-action {
+.hero__call-to-action {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
