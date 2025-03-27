@@ -135,7 +135,7 @@ section.hero > button {
   margin-bottom: 6px;
 }
 
-footer {
+.footer {
   margin-top: auto;
   background-color: var(--gray);
   text-align: center;
