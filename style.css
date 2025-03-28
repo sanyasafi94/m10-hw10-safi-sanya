@@ -10,7 +10,7 @@
   --gray: #A1A1A1;
 }
 
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1.3rem;
@@ -22,11 +22,11 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  
 }
 
-h1, h2 {
-  text-align: center;
+h1 {
+  
 }
 
 .header {
@@ -66,7 +66,7 @@ h1, h2 {
   margin-left: 24px;
 }
 
-main > section, main > article {
+.article {
   margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
@@ -105,6 +105,11 @@ main > section, main > article {
   padding: 48px 96px;
 }
 
+.article__heading{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 .article__text {
   line-height: 1.75;
   margin-bottom: 48px;;
@@ -113,6 +118,8 @@ main > section, main > article {
 .article__subtext {
   line-height: 1.75;
   margin-bottom: 48px;
+  text-align: center;
+}
 }
 
 .article__image {
