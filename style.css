@@ -55,27 +55,15 @@ h1, h2 {
   margin-left: 24px;
 }
 
-main a {
+.article__link {
   color: var(--danger-color);
 }
 
-main > article, nav{
+.nav{
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-.nav {
- 
-}
-
-nav > a:not(:first-of-type){
   margin-left: 24px;
-}
-
-nav > a.logo {
-  margin-right: auto;
-  text-transform: uppercase;
 }
 
 main > section, main > article {
@@ -104,7 +92,7 @@ main > section, main > article {
   margin: 0;
 }
 
-section.hero > button {
+.hero__button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
